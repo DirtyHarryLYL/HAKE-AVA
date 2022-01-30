@@ -2,7 +2,6 @@
 Fine-grained Spatio-Temporal Activity Understanding based on AVA videos. 
 A part of the [HAKE](http://hake-mvig.cn) project.
 
-(TBD) A fig depicting the video pasta data.
 ## Annotation Diagram
 
 <div align=center>
