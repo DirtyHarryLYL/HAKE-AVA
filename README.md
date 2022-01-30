@@ -3,9 +3,10 @@ Fine-grained Spatio-Temporal Activity Understanding based on AVA videos.
 A part of the [HAKE](http://hake-mvig.cn) project.
 
 (TBD) A fig depicting the video pasta data.
+## Annotation Diagram
 
 <div align=center>
-<img src="figs\hake-ava.png" width="300" />
+<img src="figs\hake-ava.png" width="800" />
 </div>
 
 **[Dataset](https://github.com/DirtyHarryLYL/HAKE-Video/tree/main)**: HAKE-AVA contains the human body part states (PaSta) annotations upon AVA v2.1 and covers all the labeled human instances. PaSta (Part State) describes the action states of 10 human body parts, i.e., head, arms, hands, hip, legs, and feet.
