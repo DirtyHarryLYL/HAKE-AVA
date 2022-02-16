@@ -8,9 +8,9 @@ A part of the [HAKE](http://hake-mvig.cn) project.
 <img src="figs\hake-ava.png" width="800" />
 </div>
 
-**[Dataset](https://github.com/DirtyHarryLYL/HAKE-Video/tree/main)**: HAKE-AVA contains the human body part states (PaSta) annotations upon AVA (v2.1 & 2.2) and covers all the labeled human instances. PaSta (Part State) describes the action states of 10 human body parts, i.e., head, arms, hands, hip, legs, and feet.
+**HAKE-AVA** contains the human body part states (PaSta) annotations upon AVA (v2.1 & 2.2) and covers all the labeled human instances. PaSta (Part State) describes the action states of 10 human body parts, i.e., head, arms, hands, hip, legs, and feet.
 
-For the procedure of preparing HAKE dataset for Activity2Vec, please refer to [DATASET.md](./DATASET.md).
+For the procedure of preparing HAKE-AVA dataset, please refer to [DATASET.md](./DATASET.md).
 
 <!-- ## HAKE-DIO
 HAKE-DIO contains the bounding box (TODO) and object class (TODO) annotations of all the interacive objects in AVA videos (v2.2), according to the labeled humans in AVA v2.2 performing Human-Object Interactions (HOI, TODO classes). 
