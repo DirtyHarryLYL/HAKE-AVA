@@ -1,53 +1,42 @@
 # Preparing Data
 
-1. Data Downloading
+1. Raw Frames & Annotations
 
-    1. Download the AVA raw frames (following [SlowFast](https://github.com/facebookresearch/SlowFast)). 
+    1. Download the AVA raw frames (following [SlowFast](https://github.com/facebookresearch/SlowFast)), and set the config AVA.FRAME_DIR to the extracted folder.
 
         ```
-        ./script/download_AVA_dataset.sh
+        ./scripts/download_AVA_dataset.sh /your/data/path
         ```
 
     2. Annotations
 
-        The annotations are contained in [Pasta.tar.gz](https://sjtueducn-my.sharepoint.com/:u:/g/personal/douyiming_sjtu_edu_cn/ETA7mjyrIM1DmVNIBRoY6tcB4KOM98hOv2Rr5TpFMvbk9w?e=dmVOlh).
+        The annotations are contained in [hake_ava_annotations.tar.gz](https://1drv.ms/u/s!ArUVoRxpBphYguIe6oP4tYRWAwwqLQ?e=CENEMN).
 
-        Please download and extract it, and then set the AVA.ANNOTATION_DIR to the extracted folder.
+        Please download and extract it, and set the config AVA.ANNOTATION_DIR to the extracted folder.
 
         ```
-        tar xzvf Pasta.tar.gz
+        tar xzvf hake_ava_annotations.tar.gz
         ```
 
         Finally, the structure of the downloaded data should be like this:
 
         ```
-        ava_annotations
-        |_ annotation
-        |	|_ video_pasta_train.csv
-        |	|_ video_pasta_val.csv
-        |_ frames
-        |  |_ [video name 0]
-        |  |  |_ [video name 0]_000001.jpg
-        |  |  |_ [video name 0]_000002.jpg
-        |  |  |_ ...
-        |  |_ [video name 1]
-        |     |_ [video name 1]_000001.jpg
-        |     |_ [video name 1]_000002.jpg
-        |     |_ ...
-        |_ frame_lists
-        |  |_ train.csv
-        |  |_ val.csv
-        |_ misc
-        |	|_ ava_action_list_v2.2_for_activitynet_2019.pbtxt
-        |	|_ ava_val_excluded_timestamps_v2.2.csv
-        |	|_ ava_val_v2.2.csv
+        hake_ava_annotations
+        |_ ava_val_predicted_boxes.csv
+        |_ video_pasta_train.csv
+        |_ video_pasta_val.csv
+        |_ train.csv
+        |_ val.csv
+        |_ ava_action_list_v2.2_for_activitynet_2019.pbtxt
+        |_ ava_val_excluded_timestamps_v2.2.csv
+        |_ ava_val_v2.2.csv
         |_ part_state.pbtxt
 
         ```
 
-2. Annotation Data Format
+2. Annotation Format
 
-    1. annotation
+    1. video_pasta_{train/val}.csv
 
         These files contain the annotations of each frame, including human boxes, actions, part states, etc.
 
@@ -65,9 +54,9 @@
         - frame: time (second) of the frame
         - x1, y1: the upper left corner of human box
         - x2, y2: the bottom right corner of human box
-        - action: the action label of the person in the human box
+        - action: the action label of the person in the human box (1-based)
         - human_id: ID of the person performing the action
-        - foot, leg, etc. : the part states of each part
+        - foot, leg, etc. : the part states of each part (0-based)
             - **-1** means there's no part state for the corresponding part.
 
     2. part_state.pbtxt
