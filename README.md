@@ -20,6 +20,14 @@ For more details, please refer to this [[branch]](https://github.com/DirtyHarryL
 ## Citation
  If you find our works useful, please consider citing:
 ```
+@misc{li2022hake,
+      title={HAKE: A Knowledge Engine Foundation for Human Activity Understanding}, 
+      author={Yong-Lu Li and Xinpeng Liu and Xiaoqian Wu and Yizhuo Li and Zuoyu Qiu and Liang Xu and Yue Xu and Hao-Shu Fang and Cewu Lu},
+      year={2022},
+      eprint={2202.06851},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 @inproceedings{li2020pastanet,
   title={PaStaNet: Toward Human Activity Knowledge Engine},
   author={Li, Yong-Lu and Xu, Liang and Liu, Xinpeng and Huang, Xijie and Xu, Yue and Wang, Shiyi and Fang, Hao-Shu and Ma, Ze and Chen, Mingyang and Lu, Cewu},
