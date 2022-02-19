@@ -49,7 +49,7 @@ For more details please refer to HAKE website http://hake-mvig.cn.
 - [**Halpe**](https://github.com/Fang-Haoshu/Halpe-FullBody): a joint project under [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) and [HAKE](http://hake-mvig.cn), full-body human keypoints (body, face, hand, 136 points) of 50,000 HOI images.
 - [**HOI Learning List**](https://github.com/DirtyHarryLYL/HOI-Learning-List): a list of recent HOI (Human-Object Interaction) papers, code, datasets and leaderboard on widely-used benchmarks. Hope it could help everyone interested in HOI.
 
-#### **News**: (2022.02.14) We release the human body part state labels based on AVA: [HAKE-AVA](https://github.com/DirtyHarryLYL/HAKE-AVA).
+#### **News**: (2022.02.14) We release the human body part state labels based on AVA: [HAKE-AVA](https://github.com/DirtyHarryLYL/HAKE-AVA) and [HAKE 2.0 paper](https://arxiv.org/abs/2202.06851).
 
 (2021.10.06) Our extended version of [SymNet](https://github.com/DirtyHarryLYL/SymNet) is accepted by TPAMI! Paper and code are coming soon.
 
