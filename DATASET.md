@@ -9,13 +9,18 @@
         ```
 
     2. Annotations
-
-        The annotations are contained in [hake_ava_annotations.tar.gz](https://1drv.ms/u/s!ArUVoRxpBphYguIe6oP4tYRWAwwqLQ?e=CENEMN).
+        
+        The annotations are contained in the following packages:
+        
+        |Version|URL|
+        |---|---|
+        |AVA v2.1|[hake_ava_annotations_v2.1.tar.gz](https://1drv.ms/u/s!ArUVoRxpBphYguQTX6aTS-LBQqCIUg?e=HFtcwR)|
+        |AVA v2.2|[hake_ava_annotations.tar.gz](https://1drv.ms/u/s!ArUVoRxpBphYguIe6oP4tYRWAwwqLQ?e=CENEMN)|
 
         Please download and extract it, and set the config AVA.ANNOTATION_DIR to the extracted folder.
 
         ```
-        tar xzvf hake_ava_annotations.tar.gz
+        tar xzvf hake_ava_annotations.tar.gz # add "_v2.1" after "annotations" for AVA v2.1
         ```
 
         Finally, the structure of the downloaded data should be like this:
