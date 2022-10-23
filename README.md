@@ -8,16 +8,22 @@ A part of the [HAKE](http://hake-mvig.cn) project.
 <img src="figs\hake-ava.png" width="800" />
 </div>
 
-**HAKE-AVA** contains the human body part states (PaSta) annotations upon AVA (v2.1 & 2.2) and covers all the labeled human instances. PaSta (Part State) describes the action states of 10 human body parts, i.e., head, arms, hands, hip, legs, and feet.
+### HAKE-AVA-PaSta (Body part states in AVA) 
+HAKE-AVA contains the human body part states (PaSta) annotations upon AVA (v2.1 & 2.2) and covers all the labeled human instances. PaSta (Part State) describes the action states of 10 human body parts, i.e., head, arms, hands, hip, legs, and feet.
 
-For the procedure of preparing HAKE-AVA dataset, please refer to [DATASET.md](./DATASET.md).
+For the procedure of preparing HAKE-AVA-PaSta dataset, please refer to [DATASET.md](./DATASET.md).
 
-**[ST-Activity2Vec]()**: A PaSta-based activity understanding model. Its overall pipeline is same with the image-based [HAKE-Activity2Vec](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/Activity2Vec) except using different feature backbone (ResNet -> SlowFast). We also provide the weights pretrained on Kinetics-600 and finetuned on HAKE-AVA.
+**[ST-Activity2Vec](https://github.com/DirtyHarryLYL/HAKE-AVA/tree/ST-Activity2Vec)**: A PaSta-based activity understanding model. Its overall pipeline is same with the image-based [HAKE-Activity2Vec](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/Activity2Vec) except using different feature backbone (ResNet -> SlowFast). We also provide the weights pretrained on Kinetics-600 and finetuned on HAKE-AVA.
 
-## HAKE-DIO
+Besides, in our another work, we also annotate all the interactive objects in AVA 2.2 videos:
+
+### HAKE-DIO (Object boxes in AVA)
 HAKE-DIO contains the bounding box (290 K) and object class (1,000+) annotations of all the interacive objects in AVA videos (v2.2), according to the labeled humans in AVA v2.2 performing Human-Object Interactions (HOI, 51 classes). 
 
-For more details, please refer to this [[branch]](https://github.com/DirtyHarryLYL/HAKE-Video/tree/DIO).
+For more details, please refer to this [[branch]](https://github.com/DirtyHarryLYL/HAKE-AVA/tree/DIO).
+
+### Joint version: HAKE-AVA-PaSta + HAKE-DIO
+We also provide a joint version combining the human body part states and interactive object boxes in one file, as shown in the above figure. Please refer to [[this]]().
 
 ## Citation
  If you find our works useful, please consider citing:
