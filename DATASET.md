@@ -1,4 +1,4 @@
-# Preparing Dataset for HAKE-AVA
+# Preparing Dataset for DIO
 
 1. Dataset downloading steps
 
@@ -10,17 +10,17 @@
 
     2. Downloading annotation
 
-        The annotation is contained in [hake_ava.tar.gz](https://sjtueducn-my.sharepoint.com/:u:/g/personal/douyiming_sjtu_edu_cn/EVYz3LDK4y9OkmbK1FGJb9YBEGaWiplS56ZrCdXFKZey7A?e=WJ1bvQ)
+        The annotation is contained in [DIO.tar.gz](https://sjtueducn-my.sharepoint.com/:u:/g/personal/douyiming_sjtu_edu_cn/EVYz3LDK4y9OkmbK1FGJb9YBEGaWiplS56ZrCdXFKZey7A?e=WJ1bvQ)
 
         Please download it to ava folder and extract data from the package.
 
     3. Structure of downloaded data
 
         ```
-        hake_ava
-        |_ hake_ava_annotation
-        |  |_ hake_ava_test.csv
-        |  |_ hake_ava_train.csv
+        DIO
+        |_ DIO_annotation
+        |  |_ DIO_test.csv
+        |  |_ DIO_train.csv
         |_ frames
         |  |_ [video name 0]
         |  |  |_ [video name 0]_000001.jpg
@@ -37,7 +37,7 @@
 
 2. Annotation Format
 
-    Files in hake_ava folder contains the annotations of each frame, including human/object box, action, object name, etc.
+    Files in DIO folder contains the annotations of each frame, including human/object box, action, object name, etc.
 
     example:
 
@@ -57,3 +57,4 @@
     - object_name: name of object
     - human_id: ID of the person performing the action
     - object_id: category id of the object
+
