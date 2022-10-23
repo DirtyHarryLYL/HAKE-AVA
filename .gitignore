@@ -1,0 +1,17 @@
+ckpts/
+__pycache__/
+checkpoints/
+build/
+*.csv
+*.egg-info/
+ava_results/
+tools/combine_pasta_sf.py
+tools/vis_data.py
+shape_dict.json
+corr.jpg
+ava.s3cfg
+fvcore/
+detectron2_repo/
+runs-hake/
+*.log
+configs.yaml

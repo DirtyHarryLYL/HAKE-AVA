@@ -1,0 +1,38 @@
+_BASE_: "./k600_base.yaml"
+MODEL:
+  ACTION_LOSS: True
+  FROZEN_BACKBONE: True
+  FROZEN_ACTION_HEADER: True
+  FROZEN_PASTAS: ["foot", "leg", "hip", "hand", "arm", "head"]
+  FROZEN_VERB_CLASSIFIER: False
+  K700_BACKBONE: False
+  LOSS_FUNC: bce
+  PASTA_CLASSIFIER: True
+  VERB_CLASSIFIER_MED_DIM: -1
+DATA_LOADER:
+  NUM_WORKERS: 2
+SOLVER:
+  BASE_LR: 0.004
+  LR_POLICY: steps_with_relative_lrs
+  STEPS: [0, 10, 20]
+  LRS: [1, 0.1, 0.01]
+  MAX_EPOCH: 20
+  MOMENTUM: 0.9
+  WEIGHT_DECAY: 1e-7
+  WARMUP_EPOCHS: 0.0
+  WARMUP_START_LR: 0.000125
+  OPTIMIZING_METHOD: sgd
+  BASE_LR_SCALE_NUM_SHARDS: True
+TENSORBOARD:
+  ENABLE: True
+TRAIN:
+  DATASET: hake
+  ENABLE: True
+  PER_GPU_BS: 4
+  CHECKPOINT_TYPE: pytorch
+  CHECKPOINT_EPOCH_RESET: True
+  CHECKPOINT_FILE_PATH: /Disk7/hongwei/HAKE-Video/checkpoints/pasta.pyth
+  FOCAL_GAMMA: 2.0
+  VAL_ONLY: False
+TEST:
+  ENABLE: False

@@ -1,0 +1,12 @@
+simplejson
+psutil
+opencv-python
+tensorboard
+moviepy
+tqdm
+pyyaml
+iopath
+cython
+scipy
+sklearn
+Pillow==6.2.2

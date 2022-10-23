@@ -1,5 +1,6 @@
-# Download videos
-DATA_DIR="../data/DIO/videos"
+# 1. Download videos
+ROOT_DIR=$1
+DATA_DIR=${ROOT_DIR}/videos
 
 if [[ ! -d "${DATA_DIR}" ]]; then
   echo "${DATA_DIR} doesn't exist. Creating it.";
@@ -12,9 +13,10 @@ for line in $(cat ava_file_names_trainval_v2.1.txt)
 do
   wget https://s3.amazonaws.com/ava-dataset/trainval/$line -P ${DATA_DIR}
 done
-# Cut each video from 15th to 30th minute
-IN_DATA_DIR="../data/DIO/videos"
-OUT_DATA_DIR="../data/DIO/videos_15min"
+
+# 2. Cut each video from 15th to 30th minute
+IN_DATA_DIR=${ROOT_DIR}/videos
+OUT_DATA_DIR=${ROOT_DIR}/videos_15min
 
 if [[ ! -d "${OUT_DATA_DIR}" ]]; then
   echo "${OUT_DATA_DIR} doesn't exist. Creating it.";
@@ -28,9 +30,10 @@ do
     ffmpeg -ss 900 -t 901 -i "${video}" "${out_name}"
   fi
 done
-# Extract frames
-IN_DATA_DIR="../data/DIO/videos_15min"
-OUT_DATA_DIR="../data/DIO/frames"
+
+# 3. Extract frames
+IN_DATA_DIR=${ROOT_DIR}/videos_15min
+OUT_DATA_DIR=${ROOT_DIR}/frames
 
 if [[ ! -d "${OUT_DATA_DIR}" ]]; then
   echo "${OUT_DATA_DIR} doesn't exist. Creating it.";
