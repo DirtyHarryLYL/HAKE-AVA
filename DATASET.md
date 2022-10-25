@@ -1,4 +1,4 @@
-# Preparing Dataset for DIO
+# Preparing Dataset for DIO + HAKE-AVA-PaSta (h box + b box & class + action + PaSta)
 
 1. Dataset downloading steps
 
