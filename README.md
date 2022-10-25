@@ -78,5 +78,6 @@ For more details please refer to HAKE website http://hake-mvig.cn.
 
 ## TODO
 - [X] ava 2.1 pasta annotation download manuscript (ava data, our labels, basic structure)
-- [ ] dio annotation download manuscript, basic structure
-- [ ] fusing dio and hake-ava data and labels
+- [X] dio annotation download manuscript, 
+- [ ] DIO basic structure
+- [X] fusing dio and hake-ava data and labels
