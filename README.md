@@ -23,7 +23,7 @@ HAKE-DIO contains the bounding box (290 K) and object class (1,000+) annotations
 For more details, please refer to this [[branch]](https://github.com/DirtyHarryLYL/HAKE-AVA/tree/DIO).
 
 ### Joint version: HAKE-AVA-PaSta + HAKE-DIO
-We also provide a joint version combining the human body part states and interactive object boxes in one file, as shown in the above figure. Please refer to [[this]]().
+We also provide a joint version combining the human body part states and interactive object boxes in one file, as shown in the above figure. Please refer to [[this file]](https://github.com/DirtyHarryLYL/HAKE-AVA/blob/DIO/DATASET.md).
 
 ## Citation
  If you find our works useful, please consider citing:
