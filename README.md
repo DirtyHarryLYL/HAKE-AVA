@@ -34,17 +34,17 @@ We also provide a joint version combining the human body part states and interac
   journal={arXiv preprint arXiv:2202.06851},
   year={2022}
 }
-@inproceedings{li2020pastanet,
-  title={PaStaNet: Toward Human Activity Knowledge Engine},
-  author={Li, Yong-Lu and Xu, Liang and Liu, Xinpeng and Huang, Xijie and Xu, Yue and Wang, Shiyi and Fang, Hao-Shu and Ma, Ze and Chen, Mingyang and Lu, Cewu},
-  booktitle={CVPR},
-  year={2020}
-}
 @article{li2022discovering,
   title={Discovering a Variety of Objects in Spatio-Temporal Human-Object Interactions},
   author={Li, Yong-Lu and Fan, Hongwei and Qiu, Zuoyu and Dou, Yiming and Xu, Liang and Fang, Hao-Shu and Guo, Peiyang and Su, Haisheng and Wang, Dongliang and Wu, Wei and Lu, Cewu},
   journal={arXiv preprint arXiv:2211.07501},
   year={2022}
+}
+@inproceedings{li2020pastanet,
+  title={PaStaNet: Toward Human Activity Knowledge Engine},
+  author={Li, Yong-Lu and Xu, Liang and Liu, Xinpeng and Huang, Xijie and Xu, Yue and Wang, Shiyi and Fang, Hao-Shu and Ma, Ze and Chen, Mingyang and Lu, Cewu},
+  booktitle={CVPR},
+  year={2020}
 }
 ```
 
