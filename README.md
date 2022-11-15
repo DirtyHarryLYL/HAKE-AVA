@@ -20,7 +20,7 @@ Besides, in our another work, we also annotate all the interactive objects in AV
 ### HAKE-DIO (Object boxes in AVA)
 HAKE-DIO contains the bounding box (290 K) and object class (1,000+) annotations of all the interacive objects in AVA videos (v2.2), according to the labeled humans in AVA v2.2 performing Human-Object Interactions (HOI, 51 classes). 
 
-For more details, please refer to this [[branch]](https://github.com/DirtyHarryLYL/HAKE-AVA/tree/DIO).
+For more details, please refer to this [[branch]](https://github.com/DirtyHarryLYL/HAKE-AVA/tree/DIO) and [[Paper]](https://arxiv.org/abs/2211.07501).
 
 ### Joint version: HAKE-AVA-PaSta + HAKE-DIO
 We also provide a joint version combining the human body part states and interactive object boxes in one file, as shown in the above figure. Please refer to [[this file]](https://github.com/DirtyHarryLYL/HAKE-AVA/blob/DIO/DATASET.md).
