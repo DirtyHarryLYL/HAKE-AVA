@@ -28,19 +28,23 @@ We also provide a joint version combining the human body part states and interac
 ## Citation
  If you find our works useful, please consider citing:
 ```
-@misc{li2022hake,
-      title={HAKE: A Knowledge Engine Foundation for Human Activity Understanding}, 
-      author={Yong-Lu Li and Xinpeng Liu and Xiaoqian Wu and Yizhuo Li and Zuoyu Qiu and Liang Xu and Yue Xu and Hao-Shu Fang and Cewu Lu},
-      year={2022},
-      eprint={2202.06851},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{li2022hake,
+  title={HAKE: A Knowledge Engine Foundation for Human Activity Understanding},
+  author={Li, Yong-Lu and Liu, Xinpeng and Wu, Xiaoqian and Li, Yizhuo and Qiu, Zuoyu and Xu, Liang and Xu, Yue and Fang, Hao-Shu and Lu, Cewu},
+  journal={arXiv preprint arXiv:2202.06851},
+  year={2022}
 }
 @inproceedings{li2020pastanet,
   title={PaStaNet: Toward Human Activity Knowledge Engine},
   author={Li, Yong-Lu and Xu, Liang and Liu, Xinpeng and Huang, Xijie and Xu, Yue and Wang, Shiyi and Fang, Hao-Shu and Ma, Ze and Chen, Mingyang and Lu, Cewu},
   booktitle={CVPR},
   year={2020}
+}
+@article{li2022discovering,
+  title={Discovering a Variety of Objects in Spatio-Temporal Human-Object Interactions},
+  author={Li, Yong-Lu and Fan, Hongwei and Qiu, Zuoyu and Dou, Yiming and Xu, Liang and Fang, Hao-Shu and Guo, Peiyang and Su, Haisheng and Wang, Dongliang and Wu, Wei and Lu, Cewu},
+  journal={arXiv preprint arXiv:2211.07501},
+  year={2022}
 }
 ```
 
