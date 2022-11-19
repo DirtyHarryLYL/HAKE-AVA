@@ -15,7 +15,7 @@ For the procedure of preparing HAKE-AVA-PaSta dataset, please refer to [DATASET.
 
 **[ST-Activity2Vec](https://github.com/DirtyHarryLYL/HAKE-AVA/tree/ST-Activity2Vec)**: A PaSta-based activity understanding model. Its overall pipeline is same with the image-based [HAKE-Activity2Vec](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/Activity2Vec) except using different feature backbone (ResNet -> SlowFast). We also provide the weights pretrained on Kinetics-600 and finetuned on HAKE-AVA.
 
-**[CLIP-Activity2Vec](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/CLIP-Activity2Vec)!**: We also release a CLIP-based human body part states recognizer in [CLIP-Activity2Vec](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/CLIP-Activity2Vec)!
+**[CLIP-Activity2Vec](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/CLIP-Activity2Vec)**: We also release a CLIP-based human body part states recognizer in [CLIP-Activity2Vec](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/CLIP-Activity2Vec)!
 
 Besides, in our another work, we also annotate all the interactive objects in AVA 2.2 videos:
 
