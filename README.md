@@ -30,12 +30,12 @@ We also provide a joint version combining the human body part states and interac
 ## Citation
  If you find our works useful, please consider citing:
 ```
-@article{li2022hake,
+    @article{li2023hake,
      title={HAKE: A Knowledge Engine Foundation for Human Activity Understanding},
     author={Li, Yong-Lu and Liu, Xinpeng and Wu, Xiaoqian and Li, Yizhuo and Qiu, Zuoyu and Xu, Liang and Xu, Yue and Fang, Hao-Shu and Lu, Cewu},
     journal={TPAMI},
-    year={2022}
- }
+    year={2023}
+    }
 @article{li2022discovering,
   title={Discovering a Variety of Objects in Spatio-Temporal Human-Object Interactions},
   author={Li, Yong-Lu and Fan, Hongwei and Qiu, Zuoyu and Dou, Yiming and Xu, Liang and Fang, Hao-Shu and Guo, Peiyang and Su, Haisheng and Wang, Dongliang and Wu, Wei and Lu, Cewu},
