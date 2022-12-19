@@ -31,11 +31,11 @@ We also provide a joint version combining the human body part states and interac
  If you find our works useful, please consider citing:
 ```
 @article{li2022hake,
-  title={HAKE: A Knowledge Engine Foundation for Human Activity Understanding},
-  author={Li, Yong-Lu and Liu, Xinpeng and Wu, Xiaoqian and Li, Yizhuo and Qiu, Zuoyu and Xu, Liang and Xu, Yue and Fang, Hao-Shu and Lu, Cewu},
-  journal={arXiv preprint arXiv:2202.06851},
-  year={2022}
-}
+     title={HAKE: A Knowledge Engine Foundation for Human Activity Understanding},
+    author={Li, Yong-Lu and Liu, Xinpeng and Wu, Xiaoqian and Li, Yizhuo and Qiu, Zuoyu and Xu, Liang and Xu, Yue and Fang, Hao-Shu and Lu, Cewu},
+    journal={TPAMI},
+    year={2022}
+ }
 @article{li2022discovering,
   title={Discovering a Variety of Objects in Spatio-Temporal Human-Object Interactions},
   author={Li, Yong-Lu and Fan, Hongwei and Qiu, Zuoyu and Dou, Yiming and Xu, Liang and Fang, Hao-Shu and Guo, Peiyang and Su, Haisheng and Wang, Dongliang and Wu, Wei and Lu, Cewu},
@@ -57,13 +57,15 @@ For more details please refer to HAKE website http://hake-mvig.cn.
 - **HAKE-Image** (CVPR'18/20): Human body part state labels in images. [HAKE-HICO](https://github.com/DirtyHarryLYL/HAKE#hake-hico-for-image-level-hoi-recognition), [HAKE-HICO-DET](https://github.com/DirtyHarryLYL/HAKE#hake-hico-det-for-instance-level-hoi-detection), [HAKE-Large](https://github.com/DirtyHarryLYL/HAKE#hake-large-for-instance-level-action-understanding-pre-training), [Extra-40-verbs](https://github.com/DirtyHarryLYL/HAKE#extra-40-verb-categories).
 - **HAKE-AVA**: Human body part state labels in videos from AVA dataset. [HAKE-AVA](https://github.com/DirtyHarryLYL/HAKE-AVA).
 - **[HAKE-A2V](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/Activity2Vec)** (CVPR'20): Activity2Vec, a general activity feature extractor based on HAKE data, converting a human (box) to a fixed-size vector, PaSta and action scores.
-- **[HAKE-Action-TF](https://github.com/DirtyHarryLYL/HAKE-Action), [HAKE-Action-Torch](https://github.com/DirtyHarryLYL/HAKE-Action-Torch)** (CVPR'19/20/22, NeurIPS'20, TPAMI'21, ECCV'22): SOTA action understanding methods and the corresponding HAKE-enhanced versions ([TIN](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network), [IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network)), [IF](https://github.com/Foruck/Interactiveness-Field), [mPD](https://github.com/Foruck/OC-Immunity), [PartMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)).
+- **[HAKE-Action-TF](https://github.com/DirtyHarryLYL/HAKE-Action), [HAKE-Action-Torch](https://github.com/DirtyHarryLYL/HAKE-Action-Torch)** (CVPR'19/20/22, NeurIPS'20, TPAMI'21/22, ECCV'22): SOTA action understanding methods and the corresponding HAKE-enhanced versions ([TIN](https://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network), [IDN](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/IDN-(Integrating-Decomposing-Network)), [IF](https://github.com/Foruck/Interactiveness-Field), [mPD](https://github.com/Foruck/OC-Immunity), [PartMap](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness)).
 - **HAKE-3D** (CVPR'20): 3D human-object representation for action understanding ([DJ-RN](https://github.com/DirtyHarryLYL/DJ-RN)).
 - **HAKE-Object** (CVPR'20, TPAMI'21): object knowledge learner to advance action understanding ([SymNet](https://github.com/DirtyHarryLYL/SymNet)).
 - [**Halpe**](https://github.com/Fang-Haoshu/Halpe-FullBody): a joint project under [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) and [HAKE](http://hake-mvig.cn), full-body human keypoints (body, face, hand, 136 points) of 50,000 HOI images.
 - [**HOI Learning List**](https://github.com/DirtyHarryLYL/HOI-Learning-List): a list of recent HOI (Human-Object Interaction) papers, code, datasets and leaderboard on widely-used benchmarks. Hope it could help everyone interested in HOI.
 
-#### **News**: (2022.11.19) We release the interactive object bounding boxes & classes in the interactions within AVA dataset (2.1 & 2.2)! [HAKE-AVA](https://github.com/DirtyHarryLYL/HAKE-AVA), [[Paper]](https://arxiv.org/abs/2211.07501).
+#### **News**: (2022.12.19) HAKE 2.0 is accepted by TPAMI!
+
+(2022.11.19) We release the interactive object bounding boxes & classes in the interactions within AVA dataset (2.1 & 2.2)! [HAKE-AVA](https://github.com/DirtyHarryLYL/HAKE-AVA), [[Paper]](https://arxiv.org/abs/2211.07501).
 
 (2022.07.29) Our new work PartMap is released! [Paper](https://github.com/enlighten0707/Body-Part-Map-for-Interactiveness/blob/main), [Code](https://github.com/DirtyHarryLYL/HAKE-Action-Torch)
 
@@ -87,5 +89,5 @@ For more details please refer to HAKE website http://hake-mvig.cn.
 ## TODO
 - [X] ava 2.1 pasta annotation download manuscript (ava data, our labels, basic structure)
 - [X] dio annotation download manuscript, 
-- [ ] DIO basic structure
+<!-- - [ ] DIO basic structure -->
 - [X] fusing dio and hake-ava data and labels
