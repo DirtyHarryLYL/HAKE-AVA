@@ -51,6 +51,9 @@ We also provide a joint version combining the human body part states and interac
 ```
 
 ## Main Project: HAKE (Human Activity Knowledge Engine)
+<p align='center'>
+    <img src="https://github.com/DirtyHarryLYL/HAKE-Action-Torch/blob/Activity2Vec/demo/hake_history.jpg", height="300">
+</p>
 
 For more details please refer to HAKE website http://hake-mvig.cn.
 
