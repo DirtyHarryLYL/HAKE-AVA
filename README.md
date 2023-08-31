@@ -57,6 +57,7 @@ We also provide a joint version combining the human body part states and interac
 
 For more details please refer to HAKE website http://hake-mvig.cn.
 
+- **HAKE-Reasoning** (TPAMI): Neural-Symbolic reasoning engine. [HAKE-Reasoning](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/HAKE-Reason)
 - **HAKE-Image** (CVPR'18/20): Human body part state labels in images. [HAKE-HICO](https://github.com/DirtyHarryLYL/HAKE#hake-hico-for-image-level-hoi-recognition), [HAKE-HICO-DET](https://github.com/DirtyHarryLYL/HAKE#hake-hico-det-for-instance-level-hoi-detection), [HAKE-Large](https://github.com/DirtyHarryLYL/HAKE#hake-large-for-instance-level-action-understanding-pre-training), [Extra-40-verbs](https://github.com/DirtyHarryLYL/HAKE#extra-40-verb-categories).
 - **HAKE-AVA**: Human body part state labels in videos from AVA dataset. [HAKE-AVA](https://github.com/DirtyHarryLYL/HAKE-AVA).
 - **[HAKE-A2V](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/Activity2Vec)** (CVPR'20): Activity2Vec, a general activity feature extractor based on HAKE data, converting a human (box) to a fixed-size vector, PaSta and action scores.
