@@ -1,4 +1,4 @@
-# Preparing Dataset for HAKE-DIO + HAKE-AVA-PaSta (h box + b box & class + action + PaSta)
+# Preparing Dataset for HAKE-GIO + HAKE-AVA-PaSta (h box + b box & class + action + PaSta)
 
 1. Dataset downloading steps
 
@@ -37,7 +37,7 @@
 
 2. Annotation Format
 
-    Files in DIO folder contains the annotations of each frame, including human/object box, action, object name, etc.
+    Files in the DIO folder contains the annotations of each frame, including human/object box, action, object name, etc.
 
     example:
 
