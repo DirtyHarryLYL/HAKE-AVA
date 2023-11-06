@@ -11,7 +11,7 @@ A part of the [HAKE](http://hake-mvig.cn) project.
 ### HAKE-AVA-PaSta (Body part states in AVA) 
 HAKE-AVA contains the human body part states (PaSta) annotations upon AVA (v2.1 & 2.2) and covers all the labeled human instances. PaSta (Part State) describes the action states of 10 human body parts, i.e., head, arms, hands, hip, legs, and feet.
 
-For the procedure of preparing HAKE-AVA-PaSta dataset, please refer to [DATASET.md](./DATASET.md).
+For the procedure of preparing the HAKE-AVA-PaSta dataset, please refer to [DATASET.md](./DATASET.md).
 
 **[ST-Activity2Vec](https://github.com/DirtyHarryLYL/HAKE-AVA/tree/ST-Activity2Vec)**: A PaSta-based activity understanding model. Its overall pipeline is the same as the image-based [HAKE-Activity2Vec](https://github.com/DirtyHarryLYL/HAKE-Action-Torch/tree/Activity2Vec) except using a different feature backbone (ResNet -> SlowFast). We also provide the weights pretrained on Kinetics-600 and finetuned on HAKE-AVA.
 
@@ -19,7 +19,7 @@ For the procedure of preparing HAKE-AVA-PaSta dataset, please refer to [DATASET.
 
 Besides, in our other work, we also annotate all the interactive objects in AVA 2.2 videos:
 
-### HAKE-DIO (Object boxes in AVA)
+### HAKE-GIO (Object boxes in AVA)
 HAKE-DIO contains the bounding box (290 K) and object class (1,000+) annotations of all the interacted objects in AVA videos (v2.2), according to the labeled humans in AVA v2.2 performing Human-Object Interactions (HOI, 51 classes). 
 
 For more details, please refer to this [[branch]](https://github.com/DirtyHarryLYL/HAKE-AVA/tree/DIO) and [[Paper]](https://arxiv.org/abs/2211.07501).
